@@ -1,0 +1,32 @@
+{
+  "name": "mingchao-raise-wiki",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "鸣潮角色养成 Wiki:数据来自库街区官方 Wiki 公开接口的静态快照",
+  "scripts": {
+    "refresh-data": "node scripts/fetch-data.mjs",
+    "dev": "node scripts/dev.mjs",
+    "build": "rollup -c",
+    "preview": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-react": "^7.29.7",
+    "@rollup/plugin-babel": "^6.1.0",
+    "@rollup/plugin-commonjs": "^26.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@rollup/plugin-replace": "^5.0.7",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "playwright-core": "^1.62.1",
+    "rollup": "^4.62.4",
+    "vite": "^5.4.11"
+  }
+}

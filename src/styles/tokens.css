@@ -1,0 +1,52 @@
+/* 设计令牌:全站颜色、字体、圆角、阴影统一从这里取 */
+:root {
+  /* 背景与表面 */
+  --bg: #060a13;
+  --bg-glow-a: rgba(46, 138, 216, 0.16);
+  --bg-glow-b: rgba(83, 199, 232, 0.07);
+  --surface: #0e1526;
+  --surface-2: #141d33;
+  --surface-3: #1a2540;
+
+  /* 边框与描边 */
+  --border: rgba(125, 170, 255, 0.14);
+  --border-strong: rgba(125, 170, 255, 0.3);
+
+  /* 文字 */
+  --text: #e9eff9;
+  --text-2: #a9b7cf;
+  --text-3: #75839d;
+
+  /* 品牌色 */
+  --accent: #53c7e8;
+  --accent-strong: #2ea8d8;
+  --accent-soft: rgba(83, 199, 232, 0.14);
+  --gold: #e9c46a;
+  --silver: #b7c4d8;
+  --danger: #ff7a7a;
+  --ok: #5fd4a0;
+
+  /* 六属性配色 */
+  --attr-气动: #4fd8c8;
+  --attr-导电: #a78bfa;
+  --attr-冷凝: #5cb7ff;
+  --attr-热熔: #ff8d5c;
+  --attr-衍射: #ffd257;
+  --attr-湮灭: #d76bff;
+
+  /* 几何 */
+  --radius-s: 8px;
+  --radius-m: 14px;
+  --radius-l: 22px;
+  --shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
+  --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.35);
+
+  /* 字体 */
+  --font: 'PingFang SC', 'HarmonyOS Sans SC', 'Microsoft YaHei UI', 'Microsoft YaHei',
+    'Noto Sans SC', -apple-system, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, monospace;
+
+  /* 布局 */
+  --maxw: 1180px;
+  --header-h: 64px;
+}
